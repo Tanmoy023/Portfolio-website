@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.br {
+  width: 98%;
+  margin: auto;
+  height: 2px;
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+header {
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 98%;
+  height: 60px;
+  margin: 0px 1%;
+}
+
+nav .left {
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+nav .right {
+  width: 70%;
+}
+
+nav .right ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+}
+
+.firstSection > div {
+  width: 40%;
+  height: 400px;
+  font-size: 1.5rem;
+}
+
+.first_left_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.first_left_section h3 {
+  font-size: 35px;
+}
+
+.first_left_section p {
+  margin-left: 25px;
+}
+
+.first_left_section .aTag {
+  margin-top: 5px;
+  margin-left: 25px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.first_right_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_right_section img{
+  height: 90%;
+}
+
+.secondSection {
+  width: 90%;
+  margin: auto;
+  font-size: 1.2rem;
+  height: 380px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+.secondSection::-webkit-scrollbar {
+  width: 8px;
+}
+
+.secondSection::-webkit-scrollbar-track {
+  background-color: #333;
+  border-radius: 20px;
+}
+
+.secondSection::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.secondSection::-webkit-scrollbar-thumb:hover {
+  background-color: #000000;
+}
+
+.secondSection p {
+  font-size: 0.8rem;
+  color: gray;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.secondSection h4 {
+  font-size: 2rem;
+  margin-left: 50px;
+}
+.skills_container {
+  height: 285px;
+}
+.skill {
+  width: 200px;
+  height: 280px;
+  position: relative;
+  top: 3px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-right: 10px;
+  overflow-x: auto;
+}
+
+.s-img {
+  position: inherit;
+  top: 3%;
+  left: 6%;
+  width: 88%;
+  height: 36%;
+  margin-bottom: 4%;
+}
+
+.s-title {
+  margin-left: 5px;
+}
+
+.skill p {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.skill a {
+  position: absolute;
+  bottom: 5%;
+  right: 7%;
+  padding: 0px 5px;
+}
+
+.footer {
+  margin: 5px 0px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_logos {
+  justify-content: space-around;
+  margin: 5px 0px;
+}
+
+.f_logo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.f_logo a img {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
