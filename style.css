@@ -88,6 +88,14 @@ nav .right ul {
 
 .first_right_section img{
   height: 90%;
+  width: 90%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;     /* makes the circle */
+  /* background-image: url("your-image.jpg"); */
+  background-size: cover; /* fills the circle */
+  background-position: center;
+  
 }
 
 .secondSection {
