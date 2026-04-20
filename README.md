@@ -24,10 +24,6 @@ I am passionate about building scalable web applications using **Django, React, 
 - Full-Stack Fashion Webstore
 - AI-Powered Detection Applications
 
-## 📬 Contact
-
-Feel free to connect for opportunities, collaborations, or networking.
-
 # 👨‍💻 Author
 
 **Tanmoy Patra**
